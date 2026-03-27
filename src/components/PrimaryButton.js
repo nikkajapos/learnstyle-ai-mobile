@@ -1,5 +1,4 @@
-// components/PrimaryButton.js
-import { TouchableOpacity, Text, StyleSheet } from 'react-native';
+import { StyleSheet, Text, TouchableOpacity } from 'react-native';
 
 export default function PrimaryButton({ label, onPress }) {
   return (
@@ -13,8 +12,8 @@ const styles = StyleSheet.create({
   button: {
     backgroundColor: '#1e3a8a',
     padding: 15,
-    borderRadius: 10,
-    marginTop: 10
+    borderRadius: 12,
+    marginTop: 20
   },
   text: {
     color: '#fff',

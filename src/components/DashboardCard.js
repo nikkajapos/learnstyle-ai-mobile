@@ -1,4 +1,3 @@
-// components/DashboardCard.js
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function DashboardCard({ title, items }) {
@@ -7,7 +6,7 @@ export default function DashboardCard({ title, items }) {
       <Text style={styles.title}>{title}</Text>
 
       {items.map((item, index) => (
-        <Text key={index}>• {item}</Text>
+        <Text key={index} style={styles.item}>• {item}</Text>
       ))}
     </View>
   );
@@ -16,13 +15,23 @@ export default function DashboardCard({ title, items }) {
 const styles = StyleSheet.create({
   card: {
     backgroundColor: '#fff',
-    padding: 15,
-    marginTop: 10,
-    borderRadius: 10,
-    elevation: 3
+    padding: 20,
+    marginTop: 15,
+    borderRadius: 15,
+    elevation: 5,
+    borderLeftWidth: 5,
+    borderLeftColor: '#1e3a8a'
   },
+
   title: {
     fontWeight: 'bold',
-    marginBottom: 5
+    fontSize: 16,
+    marginBottom: 10,
+    color: '#1e3a8a'
+  },
+
+  item: {
+    fontSize: 14,
+    marginBottom: 3
   }
 });
