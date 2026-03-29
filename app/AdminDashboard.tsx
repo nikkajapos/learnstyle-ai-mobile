@@ -1,4 +1,4 @@
-import AdminDashboard from '../src/pages/AdminDashboard';
+import AdminDashboard from '../screens/AdminDashboard';
 
 export default function Page() {
   return <AdminDashboard />;

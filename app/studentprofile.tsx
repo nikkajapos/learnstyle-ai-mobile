@@ -1,4 +1,4 @@
-import StudentProfile from '../src/pages/StudentProfile';
+import StudentProfile from '../screens/StudentProfile';
 
 export default function Page() {
   return <StudentProfile />;

@@ -1,4 +1,4 @@
-import Auth from '../src/pages/Auth';
+import Auth from '../screens/Auth';
 
 export default function Page() {
   return <Auth />;

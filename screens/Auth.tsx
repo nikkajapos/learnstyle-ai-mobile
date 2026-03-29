@@ -12,8 +12,8 @@ import {
     View,
 } from 'react-native';
 
-const hideIcon = require('../../assets/images/hide.png');
-const unhideIcon = require('../../assets/images/unhide.png');
+const hideIcon = require('../assets/images/hide.png');
+const unhideIcon = require('../assets/images/unhide.png');
 
 export default function Auth() {
   const router = useRouter();
@@ -195,7 +195,7 @@ export default function Auth() {
             <TouchableOpacity style={styles.googleBtn}>
               <View style={styles.googleContent}>
                 <Image
-                  source={require('../../assets/images/google.png')}
+                  source={require('../assets/images/google.png')}
                   style={styles.googleIcon}
                 />
                 <Text style={styles.googleText}>

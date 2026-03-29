@@ -1,4 +1,4 @@
-import StudentDashboard from '../src/pages/StudentDashboard';
+import StudentDashboard from '../screens/StudentDashboard';
 
 export default function Page() {
   return <StudentDashboard />;

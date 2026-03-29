@@ -2,14 +2,14 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useRouter } from 'expo-router';
 import { useEffect, useMemo, useState } from 'react';
 import {
-  Dimensions,
-  Image,
-  SafeAreaView,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View
+    Dimensions,
+    Image,
+    SafeAreaView,
+    ScrollView,
+    StyleSheet,
+    Text,
+    TouchableOpacity,
+    View
 } from 'react-native';
 import { LineChart } from 'react-native-chart-kit';
 
@@ -85,7 +85,7 @@ export default function StudentDashboard() {
             onPress={() => router.push('/studentprofile')} 
           >
             <Image
-              source={require('../../assets/images/profile.png')}
+              source={require('../assets/images/profile.png')}
               style={styles.profileImage}
             />
           </TouchableOpacity>
