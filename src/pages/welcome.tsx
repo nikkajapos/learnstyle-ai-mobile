@@ -30,7 +30,7 @@ export default function WelcomeScreen() {
       {/* BUTTON */}
       <TouchableOpacity
         style={styles.button}
-        onPress={() => router.replace('/login')} // go to login
+        onPress={() => router.replace('/Auth')} // go to login
       >
         <Text style={styles.buttonText}>GET STARTED</Text>
       </TouchableOpacity>
